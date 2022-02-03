@@ -1,0 +1,13 @@
+-- SELECT * FROM film
+-- WHERE title LIKE 'K%'
+-- ORDER BY length(title) DESC, replacement_cost ASC
+-- LIMIT 4;
+-- SELECT COUNT(*), rating FROM film
+-- GROUP BY rating
+-- ORDER BY COUNT(*) DESC
+-- LIMIT 1;
+-- SELECT SUM(amount) AS payings, first_name, last_name FROM customer
+-- INNER JOIN payment ON payment.customer_id = customer.customer_id
+-- GROUP BY first_name, last_name
+-- ORDER BY SUM(amount) DESC
+-- LIMIT 1;
